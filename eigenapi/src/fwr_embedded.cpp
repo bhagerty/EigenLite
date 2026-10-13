@@ -1,6 +1,7 @@
 #include <eigenapi.h>
 
 #include "eigenlite_impl.h"
+#include <cstring>
 
 extern unsigned char ___ihx_pico_ihx[];
 extern unsigned int ___ihx_pico_ihx_len;

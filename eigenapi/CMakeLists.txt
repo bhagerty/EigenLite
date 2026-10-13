@@ -106,6 +106,7 @@ endif()
 
 
 add_library(eigenapi STATIC ${EIGENHARP_SRC} ${EIGENHARP_HDRS})
+set_target_properties(eigenapi PROPERTIES POSITION_INDEPENDENT_CODE ON)
 
 target_include_directories(eigenapi
     PUBLIC .
